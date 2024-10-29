@@ -1,38 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
-</head>
-<body>
+  </head>
+  <body>
     <main id="calc">
-        <div class="display" ></div>
-        <div class="container">
-            <button class="btn light-gray operator" value="clear">AC</button>
-            <button class="btn light-gray operator" value="sign">+/-</button>
-            <button class="btn light-gray operator" value="percent">%</button>
-            <button class="btn orange operator" value="/">/</button>
-            <button class="btn dark-gray operand" value="7">7</button>
-            <button class="btn dark-gray operand" value="8">8</button>
-            <button class="btn dark-gray operand" value="9">9</button>
-            <button class="btn orange operator" value="*">x</button>
-            <button class="btn dark-gray operand" value="4">4</button>
-            <button class="btn dark-gray operand" value="5">5</button>
-            <button class="btn dark-gray operand" value="6">6</button>
-            <button class="btn orange operator" value="-">-</button>
-            <button class="btn dark-gray operand" value="1">1</button>
-            <button class="btn dark-gray operand" value="2">2</button>
-            <button class="btn dark-gray operand" value="3">3</button>
-            <button class="btn orange operator" value="+">+</button>
-            <button class="btn dark-gray back" value="back"><i class="fa-sharp-duotone fa-solid fa-delete-left fa-lg" style="--fa-primary-color: #FFD43B; --fa-secondary-color: #FFD43B;"></i></button> 
-            <button class="btn dark-gray zero operand" value="0">0</button>
-            <button class="btn dark-gray period operand" value=".">.</button>
-            <button class="btn orange equal" value="=">=</button>
-        </div>
+      <div class="display"></div>
+      <div class="container">
+        <button class="btn light-gray" value="clear">AC</button>
+        <button class="btn light-gray" value="sign">+/-</button>
+        <button class="btn light-gray" value="percent">%</button>
+        <button class="btn orange operator" value="/">/</button>
+        <button class="btn dark-gray operand" value="7">7</button>
+        <button class="btn dark-gray operand" value="8">8</button>
+        <button class="btn dark-gray operand" value="9">9</button>
+        <button class="btn orange operator" value="*">x</button>
+        <button class="btn dark-gray operand" value="4">4</button>
+        <button class="btn dark-gray operand" value="5">5</button>
+        <button class="btn dark-gray operand" value="6">6</button>
+        <button class="btn orange operator" value="-">-</button>
+        <button class="btn dark-gray operand" value="1">1</button>
+        <button class="btn dark-gray operand" value="2">2</button>
+        <button class="btn dark-gray operand" value="3">3</button>
+        <button class="btn orange operator" value="+">+</button>
+        <button class="btn dark-gray back" value="back">
+          <i
+            class="fa-sharp-duotone fa-solid fa-delete-left fa-lg back"
+            style="--fa-primary-color: #ffd43b; --fa-secondary-color: #ffd43b"
+          ></i>
+        </button>
+        <button class="btn dark-gray zero operand" value="0">0</button>
+        <button class="btn dark-gray period" value=".">.</button>
+        <button class="btn orange equal" value="=">=</button>
+      </div>
     </main>
-</body>
+
+    <footer></footer>
+  </body>
 </html>
